@@ -19,7 +19,7 @@ def queue_markup(
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
-                callback_data="close",
+                callback_data="✰𝐂ʟᴏsᴇ✰",
             ),
         ]
     ]
@@ -37,7 +37,7 @@ def queue_markup(
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
-                callback_data="close",
+                callback_data="✰𝐂ʟᴏsᴇ✰",
             ),
         ],
     ]
@@ -55,7 +55,7 @@ def queue_back_markup(_, CPLAY):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="close",
+                    callback_data="✰𝐂ʟᴏsᴇ✰",
                 ),
             ]
         ]
@@ -73,13 +73,13 @@ def aq_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ⛦", url=f"https://t.me/BRANDEDKING82"
+                text="✰𝐎ᴡɴᴇʀ✰", url=f"https://t.me/UTTAM470"
             ),
             InlineKeyboardButton(
-                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/BRANDED_WORLD"
+                text="✰𝐒ᴜᴘᴘᴏʀᴛ✰", url=f"https://t.me/BABY09_WORLD"
             ),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="✰𝐂ʟᴏsᴇ✰")],
     ]
     return buttons
 
@@ -99,21 +99,21 @@ def queuemarkup(_, vidid, chat_id):
                 text="ᴘᴀᴜsᴇ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
-            InlineKeyboardButton(text="sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
-            InlineKeyboardButton(text="sᴋɪᴘ", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="✰𝐒ᴛᴏᴘ✰", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="✰𝐒ᴋɪᴘ✰", callback_data=f"ADMIN Skip|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
-                text="ʀᴇsᴜᴍ", callback_data=f"ADMIN Resume|{chat_id}"
+                text="✰𝐑ᴇsᴜᴍ✰", callback_data=f"ADMIN Resume|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="ʀᴇᴘʟᴀ", callback_data=f"ADMIN Replay|{chat_id}"
+                text="✰𝐑ᴇᴘʟᴀ✰", callback_data=f"ADMIN Replay|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/BRANDED_WORLD",
+                text="✰𝐌ᴏʀᴇ✰",
+                url="https://t.me/BABY09_WORLD",
             ),
         ],
     ]
